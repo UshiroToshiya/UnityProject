@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/PuzzlScene/View/clearLabel.uss?fileID=7433441132597879392&amp;guid=054496539b86b2b4d8aed4f977184055&amp;type=3#clearLabel" />
+    <ui:VisualElement name="root" style="flex-grow: 1; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Noto_Sans_JP,WDXL_Lubrifont_JP_N/WDXL_Lubrifont_JP_N/WDXLLubrifontJPN-Regular%20SDF.asset?fileID=11400000&amp;guid=47eb03ddd9a937f4d9cac7d703cf7f39&amp;type=2#WDXLLubrifontJPN-Regular SDF&quot;); -unity-text-outline-width: 3px;">
+        <ui:Label tabindex="-1" text="CLEAR!!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="clearLabel" class="clear" style="color: rgb(255, 81, 170); text-shadow: 2px 2px 0 rgba(0, 0, 0, 0);" />
+    </ui:VisualElement>
+</ui:UXML>

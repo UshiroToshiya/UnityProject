@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="root" style="flex-grow: 1; -unity-font: initial; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Noto_Sans_JP,WDXL_Lubrifont_JP_N/Noto_Sans_JP/static/NotoSansJP-Regular%20SDF.asset?fileID=11400000&amp;guid=b1dd9ab9795997e468bc17531bc4f5ad&amp;type=2#NotoSansJP-Regular SDF&quot;);">
+        <ui:VisualElement name="Dialog" style="flex-grow: 1; padding-top: 100px;">
+            <ui:Button text="タイトル" parse-escape-sequences="true" display-tooltip-when-elided="true" name="backTitle" style="font-size: 50%; height: 100px; width: 100%;" />
+            <ui:Button text="メニュー" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="false" name="backMenu" style="font-size: 50%; height: 100px;" />
+            <ui:Button text="閉じる" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" name="closeButton" style="font-size: 50%; height: 100px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
